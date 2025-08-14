@@ -1,7 +1,11 @@
 import { Module } from "@nestjs/common";
-import { CatsModule } from "./cats/cats.module"; // 경로가 정확한지 확인하세요.
+import { AppController } from "./app.controller";
+import { AppService } from "./app.service";
+import { UsersModule } from "./users/users.module";
 
 @Module({
-  imports: [CatsModule], // CatsModule이 imports 배열에 포함되어 있어야 합니다.
+  imports: [UsersModule], // 다른 모듈 가져오기
+  controllers: [AppController],
+  providers: [AppService],
 })
 export class AppModule {}
