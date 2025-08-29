@@ -1,6 +1,6 @@
 # 1. NestJS 공식 튜토리얼 정리
 
-#### 1️⃣ NestJS 개요
+#### 1️⃣ NestJS 개요 📚
 
 - Node.js 기반 서버사이드 프레임워크
 - Typescript 사용
@@ -13,7 +13,7 @@
 
 ---
 
-#### 2️⃣ 프로젝트 생성
+#### 2️⃣ 프로젝트 생성 📚
 
 - Nest CLI 설치
 - 새 프로젝트 생성
@@ -22,7 +22,7 @@
 
 ---
 
-#### 3️⃣ 프로젝트 구조 이해
+#### 3️⃣ 프로젝트 구조 이해 📚
 
 - `src/app.controller.ts` -> HTTP 요청처리
 - `src/app.service.ts` -> 비즈니스 로직 담당
@@ -31,7 +31,7 @@
 
 ---
 
-#### 4️⃣ Hello World 구현
+#### 4️⃣ Hello World 구현 📚
 
 - 서비스에서 간단한 문자열 반환 로직 작성
 - 컨트롤러에서 GET 요청 처리
@@ -39,7 +39,7 @@
 
 ---
 
-### 5️⃣ 모듈(Module) 이해
+### 5️⃣ 모듈(Module) 이해 📚
 
 - NestJS 기능 단위 그룹
 - Controller, Service, Provider 등을 묶음
@@ -47,7 +47,7 @@
 
 ---
 
-### 6️⃣ 컨트롤러(Controller) 이해
+### 6️⃣ 컨트롤러(Controller) 이해 📚
 
 - HTTP 요청 처리
 - GET,POST,PUT,DELETE 등 메서드 매핑
@@ -55,7 +55,7 @@
 
 ---
 
-### 7️⃣ 서비스(Service) 이해
+### 7️⃣ 서비스(Service) 이해 📚
 
 - 비즈니스 로직 담당
 - Controller에 주입(DI)되어 사용됨
@@ -63,7 +63,7 @@
 
 ---
 
-### 8️⃣ 의존성 주입(DI)
+### 8️⃣ 의존성 주입(DI) 📚
 
 - Controller가 Service를 필요로 할 때 자동 주입
 - 모듈 단위로 등록해야 다른 모듈에서도 사용 가능
